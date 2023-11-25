@@ -1,0 +1,55 @@
+[debug] [2023-11-24T14:19:28.358Z] ----------------------------------------------------------------------
+[debug] [2023-11-24T14:19:28.361Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ristar\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-24T14:19:28.362Z] CLI Version:   12.9.1
+[debug] [2023-11-24T14:19:28.362Z] Platform:      win32
+[debug] [2023-11-24T14:19:28.362Z] Node Version:  v18.18.2
+[debug] [2023-11-24T14:19:28.563Z] Time:          Fri Nov 24 2023 16:19:28 GMT+0200 (South Africa Standard Time)
+[debug] [2023-11-24T14:19:28.564Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-24T14:19:28.723Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-24T14:19:28.724Z] > authorizing via signed-in user (mochochokoboiketlo@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Ristar\Desktop\Project\cicd-and-deployment
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-24T14:20:21.551Z] Using project from CLI flag: cicd-and-deployment
+[debug] [2023-11-24T14:20:21.568Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cicd-and-deployment [none]
+[debug] [2023-11-24T14:20:22.544Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cicd-and-deployment 200
+[debug] [2023-11-24T14:20:22.544Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cicd-and-deployment {"projectId":"cicd-and-deployment","projectNumber":"1062978894464","displayName":"cicd-and-deployment","name":"projects/cicd-and-deployment","resources":{"hostingSite":"cicd-and-deployment"},"state":"ACTIVE","etag":"1_22715d5b-e851-43ef-9f00-2650a48c7178"}
+[info] i  Using project cicd-and-deployment (cicd-and-deployment) 
+[info] 
+=== Hosting Setup
+[debug] [2023-11-24T14:20:22.572Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cicd-and-deployment [none]
+[debug] [2023-11-24T14:20:23.110Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cicd-and-deployment 200
+[debug] [2023-11-24T14:20:23.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cicd-and-deployment {"projectId":"cicd-and-deployment","projectNumber":"1062978894464","displayName":"cicd-and-deployment","name":"projects/cicd-and-deployment","resources":{"hostingSite":"cicd-and-deployment"},"state":"ACTIVE","etag":"1_22715d5b-e851-43ef-9f00-2650a48c7178"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2023-11-24T14:21:29.653Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-11-24T14:21:40.707Z] *** [apiv2] error from fetch(https://www.gstatic.com/firebasejs/releases.json, {"headers":{},"method":"GET"}): FetchError: request to https://www.gstatic.com/firebasejs/releases.json failed, reason: getaddrinfo ENOTFOUND www.gstatic.com
+[debug] [2023-11-24T14:21:45.818Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\Ristar\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:254:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.
